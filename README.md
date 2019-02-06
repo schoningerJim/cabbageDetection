@@ -20,6 +20,7 @@ The goal of this repository is to show how deep learning can be applied in daily
 This model was trained using a NVIDIA GPU. First of all, please install all the NVIDIA requirements as explained in the official website. [Nvidia official page](https://developer.nvidia.com/).  
 Secondly please refer to the official [Tensorflow](https://www.tensorflow.org/install/install_linux#tensorflow_gpu_support) website to know the requirements for the tensorflow-gpu.
 >Note: I have exported my model with tensorflow 1.12.0.  Using another version may cause errors, so please export the model yourself with the model checkpoint to fit your tensorflow version. The export can be done by following the [step](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/exporting_models.md)here.  
+
 Moreover, I strongly recommend to use virtual environment to do this project else some errors might occur due to the libraries dependencies.  
 Virtual environment is good for python development because it can let you having many different working environments which depends on differents libraries without having conflicts.  
 If you do not know many about virtual env, [please refer to this excellent tutorial](https://realpython.com/python-virtual-environments-a-primer/)
