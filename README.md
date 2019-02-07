@@ -28,7 +28,8 @@ If you do not know many about virtual env, [please refer to this excellent tutor
 
 
 First of all, please clone the repository to your local machine and do the following command:
-- `git clone https://github.com/schoningerJim/cabbageDetection.git`
+- `git clone https://github.com/schoningerJim/cabbageDetection.git`  
+
 Please refer to the requirements.txt to install all the others dependencies. Be sure to be in the virtual environment before typing the following command.
 - `pip install -r requirements.txt`
 
@@ -36,8 +37,12 @@ Please refer to the requirements.txt to install all the others dependencies. Be 
 Once the [Installation](#installation) done, you will have 2 choices:  
 
 - Run the detection in a single thread
-- Run the detection with multiprocessing to increase the performance
-Both of the above scrips can take a lot of input parameter to change their behaviour such as the ID of the camera, the camera size, the number of parallel worker for the multi processing script.
+- Run the detection with multiprocessing to increase the performance  
+
+Both of the above scrips can take a lot of input parameter to change their behaviour such as the ID of the camera, the camera size, the number of parallel worker for the multi processing script. Run them with the following command but be sure to be in your virtual environment first:  
+
+`python NAME_OF_THE_SCRIPT.py --param1=XX --param2=XX `
+
 
 ## Results
 
