@@ -51,7 +51,7 @@ To familiarize myself with the tensorflow object detection API, i ran my first t
 
 ![cabbage1](images/cabbage1.png)  
 
-![cabbage2](images/cabbages2.png)
+![cabbage2](images/cabbage2.png)
 
 The first resuslt is that the network can not detect the picture who look too different than the dataset. Plese see the below picture as result.
 Secondly, the user can also use tensorRT library to optimize the tensorflow model for a NVIDIA device.
