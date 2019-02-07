@@ -47,8 +47,17 @@ Both of the above scrips can take a lot of input parameter to change their behav
 ## Results
 
 ### first training with few images to learn how to use the API
-### Idea of optimisation
+To familiarize myself with the tensorflow object detection API, i ran my first training with only few images (110 for train and 85 for eval). The details of the pipeline can be see in the pipelin config file itself.  
 
+![cabbage1](images/cabbage1.png)  
+
+![cabbage2](images/cabbages2.png)
+
+The first resuslt is that the network can not detect the picture who look too different than the dataset. Plese see the below picture as result.
+Secondly, the user can also use tensorRT library to optimize the tensorflow model for a NVIDIA device.
+
+### Idea of optimisation
+Basically, in order to increase the performance in accuracy, we have to increase the dataset with a lot of picture with different point of view and angle.
 ## Contributing
 
 
