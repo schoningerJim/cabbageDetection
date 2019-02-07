@@ -41,7 +41,7 @@ Once the [Installation](#installation) done, you will have 2 choices:
 
 Both of the above scrips can take a lot of input parameter to change their behaviour such as the ID of the camera, the camera size, the number of parallel worker for the multi processing script. Run them with the following command but be sure to be in your virtual environment first:  
 
-`python NAME_OF_THE_SCRIPT.py --param1=XX --param2=XX `
+`python NAME_OF_THE_SCRIPT.py --PARAM_NAME_1=VALUE --PARAM_NAME_2=VALUE `
 
 
 ## Results
@@ -49,9 +49,7 @@ Both of the above scrips can take a lot of input parameter to change their behav
 ### first training with few images to learn how to use the API
 To familiarize myself with the tensorflow object detection API, i ran my first training with only few images (110 for train and 85 for eval). The details of the pipeline can be see in the pipelin config file itself.  
 
-![cabbage1](images/cabbage1.png)  
-
-![cabbage2](images/cabbage2.png)
+<img src="images/cabbage1.png" width="50.0%"><img src="images/cabbage2.png" width="50.0%">
 
 The first resuslt is that the network can not detect the picture who look too different than the dataset. Plese see the below picture as result.
 Secondly, the user can also use tensorRT library to optimize the tensorflow model for a NVIDIA device.
