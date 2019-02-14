@@ -88,7 +88,7 @@ if __name__ == '__main__':
         except:
             print("Error converting to RGB")
 
-        # Actual detection. Variable boxes contains the bounding box cordinates for hands detected,
+        # Actual detection. Variable boxes contains the bounding box cordinates for objects detected,
         # while scores contains the confidence for each of these boxes.
         # Hint: If len(boxes) > 1 , you may assume you have found atleast one hand (within your score threshold)
 
